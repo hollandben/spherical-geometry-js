@@ -1,5 +1,5 @@
-const LAT = Symbol('Latitude');
-const LNG = Symbol('Longitude');
+const LAT = 'Latitude';
+const LNG = 'Longitude';
 
 const has = (obj, prop) => Object.prototype.hasOwnProperty.call(obj, prop);
 
